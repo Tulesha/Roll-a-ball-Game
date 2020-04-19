@@ -33,7 +33,7 @@ public class PlayerJump : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Ground")
+        if (other.tag == "Ground" || other.tag == "Respawn" || other.tag == "Finish")
         {
             isGround = false;
         }

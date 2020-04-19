@@ -36,7 +36,7 @@ public class PlayerControl : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Finish"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("Level2");
         }
     }
 }
