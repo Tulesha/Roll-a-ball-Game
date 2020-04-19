@@ -6,7 +6,7 @@ public class PlayerJump : MonoBehaviour
 {
     private bool isGround = false;
     Rigidbody player;
-    public float force = 250;
+    private float force = 5;
 
     // Start is called before the first frame update
     void Start()
